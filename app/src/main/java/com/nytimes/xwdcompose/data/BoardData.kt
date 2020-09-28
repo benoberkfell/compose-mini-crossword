@@ -77,6 +77,5 @@ object BoardData {
                         clueText = "Hair for a hare"))
 
         val board = Board(squares = squares,
-                edgeCount = 5,
                 clues = clues)
 }

@@ -1,6 +1,7 @@
 package com.nytimes.xwdcompose.data
 
 import java.util.*
+import kotlin.math.sqrt
 
 enum class SquareType {
     BLACK,
@@ -44,6 +45,10 @@ data class Square constructor(
     }
 }
 
-data class Board(val edgeCount: Int,
-            val squares: List<Square>,
-            val clues: List<Clue>)
+data class Board(val squares: List<Square>,
+            val clues: List<Clue>) {
+
+    val edgeCount: Int
+        get() = sqrt(squares.size.toFloat()).toInt()
+
+}

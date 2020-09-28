@@ -10,3 +10,8 @@ and then the board.
 Finally we add an option to check the board and use an Android View 
 keyboard to demonstrate how we can mix and match old style Views with 
 Compose.
+
+# Talk Slides
+
+* [Keynote Format](Presentation.key)
+* [PDF Format](Presentation.pdf)
